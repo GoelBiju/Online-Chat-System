@@ -1,0 +1,14 @@
+.history {
+  width: 250px;
+  height: 250px;
+  border: 5px solid teal;
+  padding: 5px;
+}
+
+.message {
+  padding: 5px;
+}
+
+#messageBox {
+  width: 200px;
+}
