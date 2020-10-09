@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Online Chat</title>
     <link rel="stylesheet" href="styles/site.css" />
     <link rel="stylesheet" href="styles/chat.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/chat.js"></script>
+
+    <title>Online Chat</title>
   </head>
   <body class="main">
     <h1>Chat</h1>
     <div class="history"></div>
     <form class="message">
       <input id="messageBox" />
-      <button id="send">Send</button>
+      <button id="sendButton" disabled="true">Send</button>
     </form>
   </body>
 </html>
